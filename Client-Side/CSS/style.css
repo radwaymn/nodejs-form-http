@@ -1,0 +1,53 @@
+*{
+    font-size: 20px;
+}
+
+body {
+    background-color: pink;
+}
+
+.container {
+    width: 80%;
+    margin: 80px auto;
+    text-align: center;
+}
+
+form {
+    border: 4px solid purple;
+    border-radius: 10px;
+    width: 400px;
+    margin: auto;
+}
+
+.container div {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 300px;
+}
+
+input:invalid {
+    border: 2px solid red;
+}
+
+input:valid {
+    border: 2px solid green;
+}
+
+input[type="submit"] {
+    background-color: purple;
+    color: white;
+    border: none;
+    width: 100px;
+}
+
+input[type="submit"]:hover {
+    box-shadow: 2px 2px 2px teal;
+}
+
+div span {
+    color: purple;
+    font-weight: bold;
+}
